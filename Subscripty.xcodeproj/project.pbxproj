@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,7 +14,23 @@
 		74BC19DD24E2F97700DE1A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BC19DC24E2F97700DE1A0D /* Assets.xcassets */; };
 		74BC19E024E2F97700DE1A0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BC19DF24E2F97700DE1A0D /* Preview Assets.xcassets */; };
 		74BC19E324E2F97700DE1A0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BC19E124E2F97700DE1A0D /* LaunchScreen.storyboard */; };
+		74BC19FB24E302BC00DE1A0D /* SPStorkController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BC19F724E301AD00DE1A0D /* SPStorkController.framework */; };
+		74BC19FC24E302BC00DE1A0D /* SPStorkController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74BC19F724E301AD00DE1A0D /* SPStorkController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		74BC19FD24E302BC00DE1A0D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				74BC19FC24E302BC00DE1A0D /* SPStorkController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		74BC19D024E2F97500DE1A0D /* Subscripty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Subscripty.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +42,7 @@
 		74BC19DF24E2F97700DE1A0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		74BC19E224E2F97700DE1A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74BC19E424E2F97700DE1A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74BC19F724E301AD00DE1A0D /* SPStorkController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SPStorkController.framework; path = Carthage/Build/iOS/SPStorkController.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74BC19FB24E302BC00DE1A0D /* SPStorkController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +62,7 @@
 			children = (
 				74BC19D224E2F97600DE1A0D /* Subscripty */,
 				74BC19D124E2F97500DE1A0D /* Products */,
+				74BC19EA24E2FC3900DE1A0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +97,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		74BC19EA24E2FC3900DE1A0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74BC19F724E301AD00DE1A0D /* SPStorkController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,6 +115,8 @@
 				74BC19CC24E2F97500DE1A0D /* Sources */,
 				74BC19CD24E2F97500DE1A0D /* Frameworks */,
 				74BC19CE24E2F97500DE1A0D /* Resources */,
+				74BC19EF24E2FC9A00DE1A0D /* ShellScript */,
+				74BC19FD24E302BC00DE1A0D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -143,6 +172,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74BC19EF24E2FC9A00DE1A0D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+				"$(SRCROOT)/input.xcfilelist",
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+				"$(SRCROOT)/output.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "
+";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		74BC19CC24E2F97500DE1A0D /* Sources */ = {
@@ -292,6 +344,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Subscripty/Preview Content\"";
 				DEVELOPMENT_TEAM = 4GB4E68ZU6;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Subscripty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,7 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dsgnmike.subscribify.Subscripty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,6 +368,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Subscripty/Preview Content\"";
 				DEVELOPMENT_TEAM = 4GB4E68ZU6;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Subscripty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -320,7 +380,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dsgnmike.subscribify.Subscripty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

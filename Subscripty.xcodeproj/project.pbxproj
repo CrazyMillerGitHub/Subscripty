@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7425875C24E3E4C200735EB7 /* CardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7425875B24E3E4C200735EB7 /* CardViewCell.swift */; };
+		7425875E24E58A6C00735EB7 /* RootMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7425875D24E58A6C00735EB7 /* RootMainViewController.swift */; };
+		742F56B024E8260C00E17EF4 /* CoreData+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F56AF24E8260C00E17EF4 /* CoreData+extension.swift */; };
+		742F56B224E8472A00E17EF4 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F56B124E8472A00E17EF4 /* Builder.swift */; };
+		742F56B524E8520F00E17EF4 /* ProfileViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F56B424E8520F00E17EF4 /* ProfileViewPresenter.swift */; };
+		742F56B724E8599D00E17EF4 /* Color+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F56B624E8599D00E17EF4 /* Color+extension.swift */; };
+		7451814F24E915FC007BE092 /* CardEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451814D24E915FC007BE092 /* CardEntity+CoreDataClass.swift */; };
+		7451815024E915FC007BE092 /* CardEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451814E24E915FC007BE092 /* CardEntity+CoreDataProperties.swift */; };
+		747A6B9024E31BEC00B01CD8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A6B8F24E31BEC00B01CD8 /* CardView.swift */; };
+		747A6B9224E31BF800B01CD8 /* AddCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A6B9124E31BF800B01CD8 /* AddCardView.swift */; };
+		7495CFB424E6E549003917A6 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 7495CFB324E6E549003917A6 /* Intents.intentdefinition */; };
+		7495CFB824E6E5C8003917A6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495CFB724E6E5C8003917A6 /* ProfileViewController.swift */; };
+		749B9C4924E66DD300E3A908 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749B9C4824E66DD300E3A908 /* CoreDataManager.swift */; };
 		74BC19D424E2F97600DE1A0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BC19D324E2F97600DE1A0D /* AppDelegate.swift */; };
 		74BC19D624E2F97600DE1A0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BC19D524E2F97600DE1A0D /* SceneDelegate.swift */; };
 		74BC19D924E2F97600DE1A0D /* Subscripty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74BC19D724E2F97600DE1A0D /* Subscripty.xcdatamodeld */; };
-		74BC19DB24E2F97600DE1A0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BC19DA24E2F97600DE1A0D /* ContentView.swift */; };
+		74BC19DB24E2F97600DE1A0D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BC19DA24E2F97600DE1A0D /* MainViewController.swift */; };
 		74BC19DD24E2F97700DE1A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BC19DC24E2F97700DE1A0D /* Assets.xcassets */; };
 		74BC19E024E2F97700DE1A0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BC19DF24E2F97700DE1A0D /* Preview Assets.xcassets */; };
 		74BC19E324E2F97700DE1A0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BC19E124E2F97700DE1A0D /* LaunchScreen.storyboard */; };
 		74BC19FB24E302BC00DE1A0D /* SPStorkController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BC19F724E301AD00DE1A0D /* SPStorkController.framework */; };
 		74BC19FC24E302BC00DE1A0D /* SPStorkController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74BC19F724E301AD00DE1A0D /* SPStorkController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		74BC1A0024E30C6600DE1A0D /* AddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BC19FF24E30C6600DE1A0D /* AddButtonView.swift */; };
+		74D6CF4B24E3DF1800932850 /* MainViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D6CF4A24E3DF1800932850 /* MainViewPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,16 +48,32 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7425875B24E3E4C200735EB7 /* CardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewCell.swift; sourceTree = "<group>"; };
+		7425875D24E58A6C00735EB7 /* RootMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootMainViewController.swift; sourceTree = "<group>"; };
+		742F56AF24E8260C00E17EF4 /* CoreData+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreData+extension.swift"; sourceTree = "<group>"; };
+		742F56B124E8472A00E17EF4 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		742F56B424E8520F00E17EF4 /* ProfileViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewPresenter.swift; sourceTree = "<group>"; };
+		742F56B624E8599D00E17EF4 /* Color+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extension.swift"; sourceTree = "<group>"; };
+		7451814D24E915FC007BE092 /* CardEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7451814E24E915FC007BE092 /* CardEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		747A6B8F24E31BEC00B01CD8 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		747A6B9124E31BF800B01CD8 /* AddCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardView.swift; sourceTree = "<group>"; };
+		7495CFB224E6E526003917A6 /* Subscripty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Subscripty.entitlements; sourceTree = "<group>"; };
+		7495CFB324E6E549003917A6 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		7495CFB724E6E5C8003917A6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		749B9C4824E66DD300E3A908 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		74BC19D024E2F97500DE1A0D /* Subscripty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Subscripty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BC19D324E2F97600DE1A0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74BC19D524E2F97600DE1A0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		74BC19D824E2F97600DE1A0D /* Subscripty.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Subscripty.xcdatamodel; sourceTree = "<group>"; };
-		74BC19DA24E2F97600DE1A0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74BC19DA24E2F97600DE1A0D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		74BC19DC24E2F97700DE1A0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74BC19DF24E2F97700DE1A0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		74BC19E224E2F97700DE1A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74BC19E424E2F97700DE1A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74BC19F724E301AD00DE1A0D /* SPStorkController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SPStorkController.framework; path = Carthage/Build/iOS/SPStorkController.framework; sourceTree = "<group>"; };
+		74BC19FF24E30C6600DE1A0D /* AddButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonView.swift; sourceTree = "<group>"; };
+		74D6CF4A24E3DF1800932850 /* MainViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +88,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7425875A24E3E49400735EB7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7425875B24E3E4C200735EB7 /* CardViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		742F56B324E851FE00E17EF4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				742F56B424E8520F00E17EF4 /* ProfileViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		747A6B8E24E31BB600B01CD8 /* AddCardView */ = {
+			isa = PBXGroup;
+			children = (
+				747A6B9124E31BF800B01CD8 /* AddCardView.swift */,
+				747A6B8F24E31BEC00B01CD8 /* CardView.swift */,
+			);
+			path = AddCardView;
+			sourceTree = "<group>";
+		};
+		7495CFB524E6E5A0003917A6 /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				742F56B324E851FE00E17EF4 /* Presenter */,
+				7495CFB624E6E5B5003917A6 /* View */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		7495CFB624E6E5B5003917A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7495CFB724E6E5C8003917A6 /* ProfileViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		74BC19C724E2F97500DE1A0D = {
 			isa = PBXGroup;
 			children = (
@@ -77,14 +150,18 @@
 		74BC19D224E2F97600DE1A0D /* Subscripty */ = {
 			isa = PBXGroup;
 			children = (
-				74BC19D324E2F97600DE1A0D /* AppDelegate.swift */,
-				74BC19D524E2F97600DE1A0D /* SceneDelegate.swift */,
-				74BC19DA24E2F97600DE1A0D /* ContentView.swift */,
+				7495CFB224E6E526003917A6 /* Subscripty.entitlements */,
+				74BD74B124E58D1F000F8EB2 /* Root UI Elements */,
+				74BD74B024E58CC1000F8EB2 /* Settings */,
+				74BC19FE24E30C5300DE1A0D /* SwiftUI */,
+				7495CFB524E6E5A0003917A6 /* ProfileViewController */,
+				74D6CF4724E3DEBC00932850 /* MainViewController */,
 				74BC19DC24E2F97700DE1A0D /* Assets.xcassets */,
 				74BC19E124E2F97700DE1A0D /* LaunchScreen.storyboard */,
 				74BC19E424E2F97700DE1A0D /* Info.plist */,
 				74BC19D724E2F97600DE1A0D /* Subscripty.xcdatamodeld */,
 				74BC19DE24E2F97700DE1A0D /* Preview Content */,
+				7495CFB324E6E549003917A6 /* Intents.intentdefinition */,
 			);
 			path = Subscripty;
 			sourceTree = "<group>";
@@ -105,6 +182,64 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		74BC19FE24E30C5300DE1A0D /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				747A6B8E24E31BB600B01CD8 /* AddCardView */,
+				74BC19FF24E30C6600DE1A0D /* AddButtonView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		74BD74B024E58CC1000F8EB2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7451814D24E915FC007BE092 /* CardEntity+CoreDataClass.swift */,
+				7451814E24E915FC007BE092 /* CardEntity+CoreDataProperties.swift */,
+				742F56AF24E8260C00E17EF4 /* CoreData+extension.swift */,
+				74BC19D324E2F97600DE1A0D /* AppDelegate.swift */,
+				74BC19D524E2F97600DE1A0D /* SceneDelegate.swift */,
+				749B9C4824E66DD300E3A908 /* CoreDataManager.swift */,
+				742F56B124E8472A00E17EF4 /* Builder.swift */,
+				742F56B624E8599D00E17EF4 /* Color+extension.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		74BD74B124E58D1F000F8EB2 /* Root UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				7425875D24E58A6C00735EB7 /* RootMainViewController.swift */,
+			);
+			path = "Root UI Elements";
+			sourceTree = "<group>";
+		};
+		74D6CF4724E3DEBC00932850 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7425875A24E3E49400735EB7 /* Cell */,
+				74D6CF4924E3DF0400932850 /* Presenter */,
+				74D6CF4824E3DEFB00932850 /* View */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		74D6CF4824E3DEFB00932850 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74BC19DA24E2F97600DE1A0D /* MainViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		74D6CF4924E3DF0400932850 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				74D6CF4A24E3DF1800932850 /* MainViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,6 +252,7 @@
 				74BC19CE24E2F97500DE1A0D /* Resources */,
 				74BC19EF24E2FC9A00DE1A0D /* ShellScript */,
 				74BC19FD24E302BC00DE1A0D /* Embed Frameworks */,
+				742F56AE24E821BB00E17EF4 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -174,6 +310,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		742F56AE24E821BB00E17EF4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 		74BC19EF24E2FC9A00DE1A0D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 8;
@@ -201,10 +354,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				742F56B024E8260C00E17EF4 /* CoreData+extension.swift in Sources */,
 				74BC19D424E2F97600DE1A0D /* AppDelegate.swift in Sources */,
+				7425875E24E58A6C00735EB7 /* RootMainViewController.swift in Sources */,
 				74BC19D624E2F97600DE1A0D /* SceneDelegate.swift in Sources */,
-				74BC19DB24E2F97600DE1A0D /* ContentView.swift in Sources */,
+				74D6CF4B24E3DF1800932850 /* MainViewPresenter.swift in Sources */,
+				7425875C24E3E4C200735EB7 /* CardViewCell.swift in Sources */,
+				7451814F24E915FC007BE092 /* CardEntity+CoreDataClass.swift in Sources */,
+				74BC19DB24E2F97600DE1A0D /* MainViewController.swift in Sources */,
+				7495CFB424E6E549003917A6 /* Intents.intentdefinition in Sources */,
+				749B9C4924E66DD300E3A908 /* CoreDataManager.swift in Sources */,
+				742F56B524E8520F00E17EF4 /* ProfileViewPresenter.swift in Sources */,
+				74BC1A0024E30C6600DE1A0D /* AddButtonView.swift in Sources */,
+				747A6B9024E31BEC00B01CD8 /* CardView.swift in Sources */,
+				742F56B724E8599D00E17EF4 /* Color+extension.swift in Sources */,
+				7495CFB824E6E5C8003917A6 /* ProfileViewController.swift in Sources */,
+				747A6B9224E31BF800B01CD8 /* AddCardView.swift in Sources */,
 				74BC19D924E2F97600DE1A0D /* Subscripty.xcdatamodeld in Sources */,
+				7451815024E915FC007BE092 /* CardEntity+CoreDataProperties.swift in Sources */,
+				742F56B224E8472A00E17EF4 /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Subscripty/Subscripty.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Subscripty/Preview Content\"";
 				DEVELOPMENT_TEAM = 4GB4E68ZU6;
@@ -349,6 +518,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Subscripty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -364,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Subscripty/Subscripty.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Subscripty/Preview Content\"";
 				DEVELOPMENT_TEAM = 4GB4E68ZU6;
@@ -373,6 +544,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Subscripty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
